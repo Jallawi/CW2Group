@@ -1,3 +1,4 @@
+/* lessons style  */
 div #lesson{    
     /*display: flex; */
        border: 1px solid lightblue;
@@ -6,6 +7,8 @@ div #lesson{
         
    }
    
+
+   /* main style  */
    div #main {
        display: flex;
    }
