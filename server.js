@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+//lessons data
 const lessons = [
   { topic: 'math', location: 'Hendon', price: 100 },
   { topic: 'math', location: 'Colindale', price: 80 },
