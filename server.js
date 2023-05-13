@@ -15,11 +15,15 @@ const User = [{
     "password": "123$$$123",
 }]
 
+
+//lessons get request 
 app.get('/lessons', (req, res) => {
    // res.setHeader('Access-Control-Allow-Origin', req.headers.origin);
     res.json(lessons);
   });
 
+
+  //users get request 
   app.get('/user', (req, res) => {
     // res.setHeader('Access-Control-Allow-Origin', req.headers.origin);
      res.json(User);
