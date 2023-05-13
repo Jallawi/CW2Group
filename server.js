@@ -10,6 +10,8 @@ const lessons = [
   { topic: 'math', location: 'Golders Green', price: 120 }
 ];
 
+
+// user data
 const User = [{
     "Email":  "abc@gmail.com",
     "password": "123$$$123",
