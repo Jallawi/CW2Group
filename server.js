@@ -29,6 +29,8 @@ app.get('/lessons', (req, res) => {
      res.json(User);
    });
   
+
+   //assigning port to server 
   app.listen(port, () => {
     console.log(`Server listening at http://localhost:${port}/lessons`);
   });
